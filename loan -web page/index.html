@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="main">
+        <div class="bar">
+            <ul>
+                <li>
+                    <a href=""><i class="fa-solid fa-car-side"></i>
+                        <div> 
+                            <h5>EASYLOAN</h5>
+                            <h6>For Yourn Car</h6>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-skype"></i>  
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="contant">
+            <div class="frist">
+                <h1>Instant Apporoval For car Loan</h1>
+                <h5>Lowest interest Rates - Calculate EMI - check Eligibilty - Instant e- Approval-Special Offers</h5>
+                <h3>7.25% <span>For New car</span></h3>
+                <h3> 8.30% <span>For old car</span> </h3> 
+                <button>WHY CHOOSE US?</button>
+            </div>
+        
+        
+            <div class="second">
+                <h2>REQUEST QUOTE NOW</h2>
+
+    <p>Easy to apply for a loan with us, Once you have complete this form</p>
+                <form>
+                    <input placeholder="Name" id="name" required>
+                    <input placeholder="E-mail" id="email"required>
+                    <input placeholder="Phone" id="phone"required>
+                    <input placeholder="Type Your City Name" id="cityname" required>
+                    <input placeholder="Zip Code" id="zipcode" required>
+                    <div class="formAamount">
+                        <label class="amount" for="amount">AMOUNT</label>
+                        <input class="amount" id="amount" type="range" step="1000" min="0" max="500000" onchange="updateValue(this.value)"><p class="rangeValue"></p></input>
+                    </div>
+                    <button class="btnSend" onclick="validate()">SEND REQUEST</button>
+                </form>
+            </div>     
+        </div>
+    </section>
+    <!-- _______________________________    page 2 _____________________________ -->
+
+    <section id="page2">
+    
+        <div class="heading2"> 
+            <h1> Reason to choose Us</h1>
+            <p>Bad credit is worse than a bad swing but at Cardomain.com your credit is good with us. Easy to apply for a loan <br> with us Once you have complete this form.</p>
+            
+        </div>
+
+        <div class="paraentpage2">
+          <div class="pic"> <img src="men.jpg"></div> 
+          <div class="parentbox">
+          <div class="box_4"> 
+             <div class="box">
+                    <i class="fa-solid fa-square-check"></i>
+                    <h3>Easy Loan Approvals</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum soluta incidunt natus neque nulla quae. Voluptate necessitatibus eos numquam at aliquid ullam. Quas fugiat commodi cum nihil rerum eligendi.</p>
+                </div>
+                <div class="box">
+                    
+                     <i class="fa-sharp fa-solid fa-clock"></i>
+                    <h3>Fast and FREE</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum soluta incidunt natus neque nulla quae. Voluptate necessitatibus eos numquam at aliquid ullam. Quas fugiat commodi cum nihil rerum eligendi.</p>
+                </div>
+            </div>
+              <div class="box_42">
+                <div class="box">
+                    
+                    <i class="fa-solid fa-user-group"></i>
+                    <h3>Hassle free</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum soluta incidunt natus neque nulla quae. Voluptate necessitatibus eos numquam at aliquid ullam. Quas fugiat commodi cum nihil rerum eligendi.</p>
+                </div>
+                <div class="box"><i class="fa-solid fa-lock"></i>
+                    <h3>100% Safe and Secure</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum soluta incidunt natus neque nulla quae. Voluptate necessitatibus eos numquam at aliquid ullam. Quas fugiat commodi cum nihil rerum eligendi.</p>
+              </div>
+          </div>
+        </div>
+     
+        </div>
+    
+    </section>
+     <!-- _______________________________    page 3 _____________________________ -->
+    <section id="page3">
+        <div class="page3_head"> <h1>Car Loans - Bad Credit. Good Credit, or No Credit!</h1>
+            <p>Getting a car loan with bad credit has never been easier! At EasyLoan, we want to help you get into <br>the car you deserve.</p>
+            <span class="border3"></span>
+        </div>
+        <div class="parentp_3">
+            <div class="child3">
+                <i class="fa-solid fa-user-plus 1"></i>
+                <h1>500K</h1>
+                <h3>Satisfied Clients</h3>
+            </div>
+            <div class="child3">
+                <i class="fa-solid fa-dollar-sign"></i>
+               <h1>550K</h1>
+                <h3>Car Loan</h3>
+            </div>
+            <div class="child3">
+                <i class="fa-solid fa-user-check"></i>
+                <h1>150K</h1>
+                <h3>Repeact Client</h3>
+            </div>
+            <div class="child3">
+                <i class="fa-solid fa-check"></i>
+                <h1>100%</h1>
+                <h3>Safe & Secure</h3>
+            </div>
+            <i class="fa-regular fa-horizontal-rule"></i>
+        </div>
+    </section>
+      <!-- _______________________________    page 4_____________________________ -->
+
+<section id="page4">
+    <div class="page4_head">
+        <h1>Meet Our Agents</h1>
+        <p>Meet Our Agents. Our team of agents are ready to help you</p>
+        <span class="border4"></span>
+        
+    </div>
+<div class="parentp_4">
+    
+        <div class="child4">
+            <img class="img01" src="img1.jpg">
+        
+            <p>  Erdin Adamne <br>DEVELOPER <br>PROFILE <br>   <span> <a href="###">KNOW MORE...</a></span> </p>
+            
+            
+        </div>
+        <div class="child4">
+            <img class="img02" src="img2.jpg">
+            <p>  Shan Khan <br>DESGNES <br> PROFILE    <br>  <span> <a href="###">KNOW MORE...</a></span></p>
+          
+            
+        </div>
+        <div class="child4">
+            <img class="img03" src="img3.jpg">
+            <p>John biol <br> DESGNES <br>PROFILE <br><span> <a href="###">KNOW MORE...</a></span></p>
+        </div>
+    
+ </div>
+ <div>
+
+</section>
+  <!-- _______________________________    page 5_____________________________ -->
+  <section id="page5">
+    <div class="page5_head">
+        <h1>Reviews</h1>
+        <p>What our Clients say about us.</p>
+        <span class="border">
+        </span>
+
+
+        <!-- _______________________________    page 5_____________________________ -->
+         <!--  slider start -->
+        
+    
+         <div class="slider">
+            <div class="imgs_slides">
+  
+                <!-- Radio buttons start -->
+                <input type="radio" name="radio-btn" id="radio1" />
+  
+                <input type="radio" name="radio-btn" id="radio2" />
+  
+                <input type="radio" name="radio-btn" id="radio3" />
+  
+                <input type="radio" name="radio-btn" id="radio4" />
+  
+                <input type="radio" name="radio-btn" id="radio5" />
+  
+                <!-- Radio buttons end -->
+                <!-- Embedding   start -->
+                <div class="first slide" id="slider_one">
+                    
+                    <div class="first_line">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus, amet sit cumque nihil dolores modi voluptates. Adipisci, repellendus maxime, ipsum dignissimos excepturi ratione, non iure repellat magni neque itaque.   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia harum ipsum dolores ea. Optio facilis aut saepe qui! Sint illum iusto, provident perferendis eos dolores est! Dolorem mollitia quas et?             </div>
+                <div class="second_line">
+                    <h5>Dany Shalman</h5>
+                    <h6>New York</h6>
+                </div>
+                </div>
+                <div class="slide">
+                    <div class="first_line">
+                        very use full this lone  amet consectetur adipisicing elit. Eum ea sequi, repellat odit accusantium vel atque qui animi voluptas reiciendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vitae in possimus quis tempore, tenetur laborum ratione a aliquid? Ut et corporis blanditiis eum id doloribus velit quasi ad? Eos.
+                    </div>
+                    <div class="second_line">
+<h5>Petter</h5>
+<h6>Uk</h6>
+</div>                 </div>
+                <div class="slide">
+                    <div class="first_line">
+                        loan is the lending of money by one or more individuals, organizations, or other entities to other individuals, organizations, etc. The recipient (i.e., the borrower) incurs a debt and is usually liable to pay interest on that debt until it is repaid as well as to repay the principal amount borrowed.Eum ea sequi, Lorem ipsum dolor sit amet consectetur adipisicing elit.  repellat odit accusantium vel atque qui animi voluptas reiciendis?
+                    </div>
+                    <div class="second_line">
+<h5>rabbi</h5>
+<h6>uas</h6>
+</div>                 </div>
+
+                <div class="slide">
+                    <div class="first_line">
+                        The document evidencing the debt (e.g., a promissory note) will normally specify, among other things, the principal amount of money borrowed, the interest rate the lender is charging, and the date of repayment. A loan entails the reallocation of the subject asset(s) for a period of time, between the lender and the borrower.  adipisicing elit. Eum ea sequi, repellat odit accusantium vel atque qui animi voluptas reiciendis?
+                    </div>
+                    <div class="second_line">
+    <h5>albath</h5>
+<h6>dubai</h6>
+</div>                 </div>
+                <div class="slide">
+                    <div class="first_line">
+                         dolor sit amet consectetur adipisicing elit. Eum ea sequi, repellat odit accusantium vel atque qui animi voluptas reiciendis? Acting as a provider of loans is one of the main activities of financial institutions such as banks and credit card companies. For other institutions, issuing of debt contracts such as bonds is a typical source of funding.
+                    </div>
+                    <div class="second_line">
+<h5>qwerty</h5>
+<h6>abcde</h6>
+</div>                 </div>
+                <!-- Embedding  end -->
+            </div>
+  
+            <!-- Navigation start -->
+            <div class="navigation">
+                <label for="radio1" class="navigation-btn">
+                </label>
+                <label for="radio2" class="navigation-btn">
+                </label>
+                <label for="radio3" class="navigation-btn">
+                </label>
+                <label for="radio4" class="navigation-btn">
+                </label>
+                <label for="radio5" class="navigation-btn">
+                </label>
+            </div>
+            <!-- Navigation end -->
+        </div>
+        <!--  slider end -->
+ 
+
+
+    </div>
+    
+
+    
+  </section>
+
+  <!-- =--------------------------------------------page 6.1------------------------------------ -->
+<section class="sixth">
+    <div class="sixth_head">
+<h1><i class="fa-solid fa-circle-question"></i></h1>
+<p>Ask about our lone rate car <br> loans?
+<h5>Lorem ipsum dolor sit amet consectetur adipisicing elitfhi diiehin idi how is dolloer . <br> Consectetur, eos. Culpa accusantium accusamus cupiditate dolore cumque</h5>
+
+<button class="sixth_btn">ASK QUSTION </button>
+    </div>
+    <div class="detail_main">
+        
+<details>
+    <summary>Lorem ipsum dolor sit</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+  
+<details>
+    <summary>Lorem ipsum dolor sit amet consectetur adipisicing ?</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+  
+<details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+  
+<details>
+    <summary>Lorem ipsum dolor sit amet </summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+  
+<details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+
+    </div>
+</section>
+
+
+
+
+  <!-- _______________________________    page 7_____________________________ -->
+  <section id="page7">
+    <div class="page7_head">
+        <h1>Our Blog</h1>
+    </div>
+        
+        <div class="blog-container">
+            <!-- ----1-- -->
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img class="img-blog" src="blog1.jpg">
+                </div>
+                 <div class="blog-text"><h3>Home Lone For You</h3>
+                    
+                    <span>By Admin on  jan 19,2017</span>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit, quis commodi debitis voluptatem asperioresit amet consectetur adipisicing elit</p>
+                    <br>
+                    
+                    <a href="##">Learn More</a>  
+                </div>
+            </div>
+            <!-- ---2--- -->
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img class="img-blog" src="blog2.jpg">
+                </div>
+                 <div class="blog-text"><h3>Car Lone For You</h3>
+                    
+                    <span>By Admin on  Feb 26,2018</span>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit, quis commodi debitis voluptatem asperioresit amet consectetur adipisicing elit</p>
+                    <br>
+                    <a href="##">Learn More</a>  
+                </div>
+                
+
+            </div>
+            <!-- ---3--- -->
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img class="img-blog" src="blog3.jpg">
+                </div>
+                 <div class="blog-text"><h3>Education Lone ForYou</h3>
+                    
+                    <span>By Admin on  Mar 04,2019</span>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit, quis commodi debitis voluptatem asperioresit amet consectetur adipisicing elit</p>
+                    
+                    <br>
+                    
+                    <a href="##">Learn More</a>  
+                </div>
+                
+
+            </div>
+
+        </div>
+
+  </section>
+   <!-- _______________________________    page 8_____________________________ --> 
+   <section id="page8"> 
+   <div class="page8_head">
+    <h1>Our Partner</h1>
+    </div>
+    <div class="client">
+        <div class="client-name"><i class="fa-brands fa-slack"></i>
+            <p>Themeforest</p>
+        </div>
+        <div class="client-name">
+            
+            <i class="fa-solid fa-umbrella"></i>
+            <p>activeden</p>
+        </div>
+        <div class="client-name">
+            <i class="fa-brands fa-docker"></i>
+            <p>codecanyann</p>
+        </div>
+        <div class="client-name">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <p>videohive</p>
+        </div>
+        <div class="client-name">
+            <i class="fa-solid fa-money-bill"></i>
+            <p>themforest</p>
+        </div>
+        <div class="client-name">
+            <i class="fa-solid fa-tree"></i>
+            <p>activeden</p>
+        </div>
+        <div class="client-name">
+            <i class="fa-brands fa-slack"></i>
+            <p>loram</p>
+        </div>
+        <div class="client-name">
+            <i class="fa-brands fa-docker"></i>
+            <p>videomate</p>
+        </div>
+    </div>
+
+</section>
+ <!-- _______________________________    page 9_____________________________ --> 
+ <section id="page9"> 
+                    <div class="page9_head">
+                          <h1>Stay Connected  <span id="hand-logo"> <i class="fa-regular fa-handshake"></i></span> With Us</h1>
+                          <p>Subscribe to Our Weekly Newsletter and stay tuned.</p>
+                          <div class="gamil">
+                            <i class="fa-regular fa-envelope"></i> <input type="text" id="" placeholder="Enter Email">
+                           </div>
+                       <div> <button id="btn">Subscribe Now!</button></div>
+                   </div>
+                   <div class="icon9">
+                    <a class="icon9_1" href="##"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="icon9_2" href="##"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="icon9_3" href="##"><i class="fa-brands fa-square-google-plus"></i></a>
+                   </div>
+ <!-- _______________________________    page js link_____________________________ --> 
+                   <script src="./task.js"></script>
+ </section>
+  <!-- _______________________________    page 10_____________________________ --> 
+
+<section id="footer">
+    <h3>Contact Us</h3>
+    <div class="contact">
+        <div class="form">
+            <input type="text" id="name-f" placeholder="Enter Name"><br>
+            <input type="text" id="email-f" placeholder="Enter Email"><br>
+            <input type="text" id="phone-f" placeholder="Enter Phone Number"><br>
+            <input type="text" id="zip-f" placeholder="Enter ZIP Code"><br>
+            <textarea name="" id="textarea" placeholder="Type Message Text"></textarea>
+            <button onclick="submit()">SUBMIT</button>
+            <!-- <button class="btnSend" onclick="validate()">Submit</button> -->
+        </div>
+        <div class="details">
+            <i class="fa-solid fa-house"></i><br>
+            
+            <p>Office Location</p>
+            <p> <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>EasyLoan LLC,<br>Washington,DC 20301</p>
+            <p><span><i class="fa-solid fa-mobile"></i></span>Phone:121-000-1234</p>
+            <p><span><i class="fa-solid fa-envelope-open"></i></span>Fax:121-000-9876</p>
+            <p><span><i class="fa-brands fa-telegram"></i></span>Email:info@yourdomain.com</p>
+            
+     
+        </div>
+    </div>
+    <div class="crights">
+        <p><span><i class="fa-regular fa-copyright"></i></span> 2017 EasyLoan.All rights Reserved</p>
+        <p>Privacy <span>Terms</span></p>
+    </div>
+</section>
+</body>
+
+</html>
